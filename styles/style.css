@@ -1,0 +1,41 @@
+
+
+
+
+body{
+    background: #040C10;
+}
+
+.cabecalhoPrincipal{
+    background: #660d96;
+    padding: 20px 0;
+}
+
+.container{
+    width: 94%;
+    margin: 0 auto;
+    border: solid 1px red;
+}
+
+.cabecalhoPrincipal-nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.cabecalhoPrincipal-nav a:hover{
+    color: #2fed96;
+    text-decoration: underline;
+}
+
+.cabecalhoPrincipal-nav-img-github, .cabecalhoPrincipal-nav-img-linkedin{
+    width: 60px;
+}
+
+
+
+
+
