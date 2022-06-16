@@ -2,8 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+
+
 body{
     background: #040C10;
+    color: white;
 }
 
 .cabecalhoPrincipal{
@@ -14,7 +17,7 @@ body{
 .container{
     width: 94%;
     margin: 0 auto;
-    /*border: solid 1px rgba(255, 0, 0, 0.587);*/
+    /*border: solid 1px red;*/
 }
 
 .cabecalhoPrincipal-nav{
@@ -42,6 +45,7 @@ body{
     background: white;
     color: black;
     text-decoration: underline;
+    border: solid 2px black;
 }
 
 .cabecalhoPrincipal-nav-img-container{
@@ -55,6 +59,118 @@ body{
 .cabecalhoPrincipal-nav-img-github{
     margin-right: 15%;
     border-radius: 100px; 
+}
+
+
+
+
+
+
+.conteudoPrincipal{
+    margin-top: 130px;
+}
+
+.conteudoPrincipal .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
+h2{
+    margin-top: 15px;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.conteudoPrincipal-container-imagem{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.conteudoPrincipal-imagemTux{
+    width: 300px;
+    margin-top: 20px;
+
+}
+
+
+
+.conteudoPrincipal-container-botoes{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 40px;
+}
+
+
+.conteudoPrincipal-botao-linkedin{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+    background: #0077B7;
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 40px;
+    width: 200px;
+    border: 2px solid white;
+}
+
+.conteudoPrincipal-botao-linkedin:hover{
+    background: #008bd5;
+    text-decoration: underline;
+}
+
+
+.conteudoPrincipal-botao-github{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 10px;
+    background: #202024;
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 40px;
+    width: 200px;
+    border: 2px solid white;
+}
+
+.conteudoPrincipal-botao-github:hover{
+    background: #2f2f34;
+    text-decoration: underline;
+}
+
+
+.conteudoPrincipal-botao-instagram{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 10px;
+    background: #6e0070;
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 40px;
+    width: 200px;
+    border: 2px solid white;
+}
+
+.conteudoPrincipal-botao-github:hover{
+    text-decoration: underline;
 }
 
 
