@@ -1,33 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+/*Navegação*/
 
-
-body{
+body {
     background: #040C10;
     color: white;
 }
 
-.cabecalhoPrincipal{
+.cabecalhoPrincipal {
     background: #660d96;
     padding: 20px 0;
 }
 
-.container{
+.container {
     width: 94%;
     margin: 0 auto;
-    /*border: solid 1px red;*/
 }
 
-.cabecalhoPrincipal-nav{
+.cabecalhoPrincipal-nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.cabecalhoPrincipal-nav a{
+.cabecalhoPrincipal-nav a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -41,78 +39,77 @@ body{
     padding: 10px;
 }
 
-.cabecalhoPrincipal-nav a:hover{
+.cabecalhoPrincipal-nav a:hover {
     background: white;
     color: black;
     text-decoration: underline;
     border: solid 2px black;
 }
 
-.cabecalhoPrincipal-nav-img-container{
+.cabecalhoPrincipal-nav-img-container {
     display: flex;
     margin-right: 9%;
 }
-.cabecalhoPrincipal-nav-img-github{
+
+.cabecalhoPrincipal-nav-img-github {
     width: 60px;
 }
 
-.cabecalhoPrincipal-nav-img-github{
+.cabecalhoPrincipal-nav-img-github {
     margin-right: 15%;
-    border-radius: 100px; 
+    border-radius: 100px;
 }
 
+/*conteudo Principal*/
 
 
-
-
-
-.conteudoPrincipal{
+.conteudoPrincipal {
     margin-top: 130px;
 }
 
-.conteudoPrincipal .container{
+.conteudoPrincipal .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-h1{
+h1 {
     font-size: 60px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: white;
     text-decoration: underline;
 }
-h2{
-    margin-top: 15px;
+
+h2 {
+    margin-top: 20px;
     font-size: 35px;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
 }
 
-.conteudoPrincipal-container-imagem{
+.conteudoPrincipal-container-imagem {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 
 }
 
-.conteudoPrincipal-imagemTux{
+.conteudoPrincipal-imagemTux {
     width: 300px;
     margin-top: 20px;
 
 }
 
-
-
-.conteudoPrincipal-container-botoes{
+.conteudoPrincipal-container-botoes {
     display: flex;
     flex-direction: column;
-    margin: 0 0 0 40px;
+    align-items: center;
+    margin: 0 0 0 55px;
 }
 
 
-.conteudoPrincipal-botao-linkedin{
+.conteudoPrincipal-botao-linkedin {
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -127,13 +124,13 @@ h2{
     border: 2px solid white;
 }
 
-.conteudoPrincipal-botao-linkedin:hover{
+.conteudoPrincipal-botao-linkedin:hover {
     background: #008bd5;
     text-decoration: underline;
 }
 
 
-.conteudoPrincipal-botao-github{
+.conteudoPrincipal-botao-github {
     display: flex;
     justify-content: center;
     margin-top: 15px;
@@ -148,33 +145,58 @@ h2{
     border: 2px solid white;
 }
 
-.conteudoPrincipal-botao-github:hover{
+.conteudoPrincipal-botao-github:hover {
     background: #2f2f34;
     text-decoration: underline;
 }
 
 
-.conteudoPrincipal-botao-instagram{
+.conteudoPrincipal-botao-verProjetos {
     display: flex;
     justify-content: center;
     margin-top: 15px;
     padding: 10px;
-    background: #6e0070;
+    background: #a80000;
     color: white;
-    font-size: 23px;
+    font-size: 25px;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    border-radius: 40px;
-    width: 200px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 250px;
     border: 2px solid white;
 }
 
-.conteudoPrincipal-botao-github:hover{
+.conteudoPrincipal-botao-verProjetos:hover {
     text-decoration: underline;
+    background: #ce0000;
 }
 
+/*secao quem sou eu*/
 
+.quemSouEu .container {
+    display: flex;
+    width: 100%;
+    margin: 0 0;
+    background: #450965;
+    margin-top: 12%;
 
+}
 
+.quemSouEu-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 2%;
 
+}
 
+.quemSouEu-paragrafo{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 25px;
+    font-size: 25px;
+    line-height: 40px;
+    width: 70%;
+}
