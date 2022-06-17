@@ -16,6 +16,7 @@ body {
 .container {
     width: 94%;
     margin: 0 auto;
+    /*border: solid 1px red;*/
 }
 
 .cabecalhoPrincipal-nav {
@@ -82,6 +83,7 @@ h1 {
 }
 
 h2 {
+    color: #d2d2d2;
     margin-top: 20px;
     font-size: 35px;
     font-family: 'Montserrat', sans-serif;
@@ -175,13 +177,15 @@ h2 {
 /*secao quem sou eu*/
 
 .quemSouEu .container {
-    display: flex;
     width: 100%;
+    height: 440px;
     margin: 0 0;
-    background: #450965;
+    /*background: #450965;*/
     margin-top: 12%;
 
 }
+
+
 
 .quemSouEu-titulo {
     font-family: 'Montserrat', sans-serif;
@@ -198,5 +202,30 @@ h2 {
     margin-top: 25px;
     font-size: 25px;
     line-height: 40px;
-    width: 70%;
+    width: 63%;
+}
+
+
+
+
+
+/*secao habilidades*/
+
+.habilidades .container{
+    width: 100%;
+    margin: 0 0;
+    background: #605f5f;
+    margin-top: 15%;
+    height: 300px;
+}
+.java{
+    width: 50px;
+}
+
+.habilidades-titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 2%;
 }
