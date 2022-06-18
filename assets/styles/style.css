@@ -16,7 +16,7 @@ body {
 .container {
     width: 94%;
     margin: 0 auto;
-    /*border: solid 1px red;*/
+    border: solid 1px red;
 }
 
 .cabecalhoPrincipal-nav {
@@ -194,6 +194,7 @@ h2 {
     margin-left: 5%;
     margin-top: 2%;
 
+
 }
 
 .quemSouEu-paragrafo{
@@ -214,7 +215,7 @@ h2 {
 .habilidades .container{
     width: 100%;
     margin: 0 0;
-    background: #605f5f;
+    background: #250537;
     margin-top: 15%;
     height: 300px;
 }
@@ -229,3 +230,30 @@ h2 {
     margin-left: 5%;
     margin-top: 2%;
 }
+
+
+/*tecnologias*/
+
+.containerTecnologias{
+    gap: 25px;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    border: solid 2px pink;
+}
+
+/*elementos icones/ no outro css*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

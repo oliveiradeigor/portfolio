@@ -1,0 +1,151 @@
+
+
+.pai-padrao{
+    padding: 10px;
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.filho-padrao{
+    width: 110px;
+    height: 110px;
+}
+
+
+
+
+.containerTecnologias-html{
+    background: #C4C4C4;  
+}
+.containerTecnologias-html:hover{
+    background: white;
+}
+.containerTecnologias-html-elemento{
+    background: url("../img/html-roxo.png") center / cover no-repeat;
+}
+.containerTecnologias-html-elemento:hover{
+    background: url("../img/html.png") center / cover no-repeat;
+}
+
+
+
+.containerTecnologias-css{
+    background: #C4C4C4;
+  
+}
+.containerTecnologias-css:hover{
+    background: white;
+}
+.containerTecnologias-css-elemento{
+    background: url("../img/css-roxo.png") center / cover no-repeat;
+}
+.containerTecnologias-css-elemento:hover{
+    background: url("../img/css.png") center / cover no-repeat;
+}
+
+
+
+
+.containerTecnologias-js{
+    background: #C4C4C4;
+}
+.containerTecnologias-js:hover{
+    background: white;
+}
+.containerTecnologias-js-elemento{
+    background: url("../img/js-roxo-new.png") center / cover no-repeat;
+}
+.containerTecnologias-js-elemento:hover{
+    background: url("../img/js.png") center / cover no-repeat;
+}
+
+
+
+
+.containerTecnologias-java{
+    background: #C4C4C4;
+}
+.containerTecnologias-java:hover{
+    background: white;
+}
+.containerTecnologias-java-elemento{
+    background: url("../img/java-roxo.png") center / cover no-repeat;
+}
+.containerTecnologias-java-elemento:hover{
+    background: url("../img/java.png") center / cover no-repeat;
+}
+
+
+
+
+.containerTecnologias-jquery{
+    background: #C4C4C4;
+}
+.containerTecnologias-jquery:hover{
+    background: white;
+}
+.containerTecnologias-jquery-elemento{
+    background: url("../img/jquery-roxo.png") center / cover no-repeat;
+}
+.containerTecnologias-jquery-elemento:hover{
+    background: url("../img/jquery.png") center / cover no-repeat;
+}
+
+
+
+
+.containerTecnologias-linux{
+    background: #C4C4C4;
+}
+.containerTecnologias-linux:hover{
+    background: white;
+}
+.containerTecnologias-linux-elemento{
+    background: url("../img/linux-roxo.png") center / cover no-repeat;
+}
+.containerTecnologias-linux-elemento:hover{
+    background: url("../img/linux.png") center / cover no-repeat
+}
+
+
+
+
+.containerTecnologias-postgres{
+    background: #C4C4C4;
+}
+.containerTecnologias-postgres:hover{
+    background: white;
+}
+.containerTecnologias-postgres-elemento{
+    background: url("../img/postgres-roxo.png") center / cover no-repeat;
+}
+.containerTecnologias-postgres-elemento:hover{
+    background: url("../img/postgres.png") center / cover no-repeat
+}
+
+
+
+
+
+
+.containerTecnologias-postgres{
+    background: #C4C4C4;
+}
+.containerTecnologias-postgres:hover{
+    background: white;
+}
+.containerTecnologias-postgres-elemento{
+    background: url("../img/postgres-roxo.png") center / cover no-repeat;
+}
+.containerTecnologias-postgres-elemento:hover{
+    background: url("../img/postgres.png") center / cover no-repeat
+}
+
+
+
+.containerTecnologias-mysql{background: #C4C4C4;}
+.containerTecnologias-mysql:hover{background: white;}
+
+.containerTecnologias-mysql-elemento{background: url("../img/mysql-roxo.png") center / cover no-repeat;}
+.containerTecnologias-mysql-elemento:hover{background: url("../img/mysql.png") center / cover no-repeat}
