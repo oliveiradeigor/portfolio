@@ -260,10 +260,16 @@ h2 {
 }
 
 .containerProjetos{
+    display: flex;
     width: 80%;
     margin: 0 auto;
     border: solid 2px pink;
     height: 700px;
+}
+
+.containerProjeto-imagem-jogoForca{
+    width: 700px;
+    height: 400px;
 }
 
 .containerProjetos-info{
