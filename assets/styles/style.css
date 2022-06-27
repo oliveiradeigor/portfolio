@@ -178,7 +178,7 @@ h2 {
 
 .quemSouEu .container {
     width: 100%;
-    height: 440px;
+    height: auto;
     margin: 0 0;
     /*background: #450965;*/
     margin-top: 12%;
@@ -205,10 +205,6 @@ h2 {
     width: 63%;
 }
 
-
-
-
-
 /*secao habilidades*/
 
 .habilidades .container{
@@ -216,7 +212,8 @@ h2 {
     margin: 0 0;
     background: #250537;
     margin-top: 15%;
-    height: 300px;
+    padding-bottom: 3rem;
+    height: auto;
 }
 
 .habilidades-titulo{
@@ -242,41 +239,6 @@ h2 {
 /*elementos icones/ no outro css*/
 
 
-.projetos .container{
-    width: 100%;
-    margin: 0 0;
-    /*background: #250537;*/
-    margin-top: 15%;
-    height: 1000px;
-}
-
-.projetos-titulo{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    margin-top: 2%;
-    margin-bottom: 35px;
-   
-}
-
-.containerProjetos{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    border: solid 2px pink;
-    height: 700px;
-}
-
-.containerProjeto-imagem-jogoForca{
-    width: 700px;
-    height: 400px;
-}
-
-.containerProjetos-info{
-    width: 400px;
-    height: 400px;
-    border: solid 2px yellow;
-}
 
 
 

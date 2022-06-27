@@ -1,0 +1,54 @@
+/*body{
+    display: grid;
+    grid-template-areas: 
+        "conteudo";
+    grid-template-columns: auto;
+    grid-template-rows: auto;    
+}
+
+*/
+.projetos .container{
+    width: 100%;
+    margin: 0 0;
+    /*background: #250537;*/
+    margin-top: 15%;
+    height: 1000px;
+}
+
+.projetos-titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 35px;
+   
+}
+
+.projetosContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    border: solid 2px pink;
+    height: auto;
+}
+
+
+.projetosContainerCard{
+  
+}
+
+
+.projetosContainerImagem{
+   
+
+}
+
+
+
+.projetosContainerCardImagem{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}
