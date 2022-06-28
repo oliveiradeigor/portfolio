@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+
+.formacao .container {
+    width: 100%;
+    height: auto;
+    margin: 0 0;
+    background: linear-gradient(170deg, #250537a8 50%, black);
+    /*background: #250537;*/
+    border: solid royalblue 2px;
+    margin-top: 15%;
+
+}
+
+.formacao-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 35px;
+
+}
+
+
+.formacaoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2rem;
+    width: 83%;
+    margin: 0 0;
+    border: solid 2px pink;
+    height: auto;
+}
+
+
+.formacaoContainerCard {
+    background: #250537;
+    border-radius: 10px;
+    border: solid 2px#660d96;
+    cursor: pointer;
+    transition: 500ms all;
+}
+
+.formacaoContainerCard:hover{
+    transform: scale(1.02);
+    border: solid 2px #2fed96;
+}
+
+.formacaoContainerImagem {
+
+}
+
+.formacaoTitulo {
+    /*width: 450px;
+    line-height: 40px;*/
+    font-size: 25px;
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.formacaoContainerCardImagem {
+    width: 500px;
+    border-radius: 10px;
+    /*border: solid 2px#660d96;*/
+    /*margin-top: 2rem;*/
+}
+
+.formacaoContainerInfo {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 2rem 2rem 1rem 2rem;
+    width: calc(500px - 4rem);
+    text-align: center;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2rem;
+}
