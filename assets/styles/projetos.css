@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 /*body{
     display: grid;
     grid-template-areas: 
@@ -7,27 +10,31 @@
 }
 
 */
-.projetos .container{
+.projetos .container {
     width: 100%;
+    height: auto;
     margin: 0 0;
     /*background: #250537;*/
+    border: solid yellow 1px;
     margin-top: 15%;
-    height: 1000px;
+
 }
 
-.projetos-titulo{
+.projetos-titulo {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     font-weight: bold;
     margin-top: 2%;
     margin-bottom: 35px;
-   
+
 }
 
-.projetosContainer{
+
+.projetosContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 2rem;
     width: 90%;
     margin: 0 auto;
     border: solid 2px pink;
@@ -35,20 +42,72 @@
 }
 
 
-.projetosContainerCard{
-  
+.projetosContainerCard {
+    background: #250537;
+    border-radius: 20px;
+    border: solid 2px#660d96;
 }
 
 
-.projetosContainerImagem{
-   
+.projetosContainerImagem {
 
 }
 
+.projetosTitulo {
+    font-size: 25px;
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 1rem;
+}
 
-
-.projetosContainerCardImagem{
+.projetosContainerCardImagem {
     width: 500px;
+    border-radius: 20px;
+    /*border: solid 2px#660d96;*/
+    /*margin-top: 2rem;*/
+}
+
+.projetosContainerInfo {
+    font-size: 19px;
+    margin: 2rem 2rem 2rem 2rem;
+    width: calc(500px - 4rem);
+    text-align: center;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2rem;
+}
+
+.projetosContainerBotoes {
     display: flex;
-    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    
+    
+}
+
+.projetosContainerBotoes-botao-verProjeto {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid 2px white;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 7px;
+    margin-top: 2rem;
+}
+
+.projetosContainerBotoes-botao-Verrepo {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+    border: solid 1px white;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 7px;
+    margin-top: 2rem;
 }
