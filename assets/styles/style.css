@@ -33,18 +33,19 @@ body {
     font-weight: bold;
     font-size: 18px;
     margin-right: 3%;
-    border: solid 2px white;
-    border-radius: 20px;
-    /*font-family: 'Open Sans', sans-serif;*/
+    /*border: solid 2px white;*/
+    /*border-radius: 0 0 20px 0;*/
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
+    
 }
 
 .cabecalhoPrincipal-nav a:hover {
-    background: white;
-    color: black;
-    text-decoration: underline;
-    border: solid 2px black;
+    border-bottom: solid white;
+}
+
+.cabecalhoPrincipal-nav a:active {
+    border-bottom: solid #2fed96;
 }
 
 .cabecalhoPrincipal-nav-img-container {
