@@ -8,7 +8,7 @@
     width: 100%;
     height: auto;
     margin: 0 0;
-    border: solid 1px blue;
+    /*border: solid 1px blue;*/
     margin-top: 12%;
     background: linear-gradient(30deg, #250537 10%, black);
 }
@@ -24,7 +24,7 @@
     display: flex;
     width: 80%;
     margin: 0 auto;
-    border: solid 1px red;
+    /*border: solid 1px red;*/
     
 }
 .hobbies-notas{
@@ -69,7 +69,7 @@
     font-size: 28px;
     line-height: 3rem;
     margin-top: 6rem;
-    border: solid orange 1px;
+    /*border: solid orange 1px;*/
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -83,7 +83,7 @@
     margin-bottom: 3rem;
     width: 80%;
     height: auto;
-    border: solid 1px red;
+    /*border: solid 1px red;*/
     gap: 20px;
 }
 

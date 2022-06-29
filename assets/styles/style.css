@@ -16,7 +16,7 @@ body {
 .container {
     width: 94%;
     margin: 0 auto;
-    border: solid 1px red;
+    /*border: solid 1px red;*/
 }
 
 .cabecalhoPrincipal-nav {
@@ -236,7 +236,7 @@ h2 {
     gap: 25px;
     width: 70%;
     margin: 0 auto;
-    border: solid 2px pink;
+    /*border: solid 2px pink;*/
 }
 
 /*elementos icones/ no outro css*/

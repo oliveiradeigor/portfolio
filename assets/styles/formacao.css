@@ -10,7 +10,7 @@
     margin: 0 0;
     background: linear-gradient(170deg, #250537a8 50%, black);
     /*background: #250537;*/
-    border: solid royalblue 2px;
+    /*border: solid royalblue 2px;*/
     margin-top: 15%;
 
 }
@@ -32,7 +32,7 @@
     gap: 2rem;
     width: 83%;
     margin: 0 0;
-    border: solid 2px pink;
+    /*border: solid 2px pink;*/
     height: auto;
 }
 
