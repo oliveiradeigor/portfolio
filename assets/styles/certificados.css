@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+
+.certificados .container {
+    width: 100%;
+    height: auto;
+    margin: 0 0;
+    /*background: linear-gradient(170deg, #250537a8 50%, black);*/
+    /*background: #250537;*/
+    border: solid royalblue 2px;
+    margin-top: 15%;
+    background: linear-gradient(70deg, #250537 10%, black);
+
+}
+
+.certificados-titulo-principal {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 35px;
+
+}
+
+
+.certificadosContainer {
+    width: 83%;
+    height: auto;
+    margin: 0 0;
+    border: solid 2px pink;
+}
+
+
+.certificados-container-principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+ 
+}
+
+.certificados-container-div{
+    border: solid 1px red;
+    width: 380px;
+    margin-right: 13px;
+    margin-top: 13px;
+}
+
+
+.certificados-titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 20px;
+
+}
+
+.navegacao-link{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    transition: 200ms all;
+}
+
+
+.navegacao-link:hover{
+    margin-left: 20px;
+    color: #2fed96;
+    font-weight: bold;
+}
+
+
